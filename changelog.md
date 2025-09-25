@@ -1,9 +1,23 @@
 index.html
 What changes did you make on this html
+[2025-09-22] Navigation Fixes
+- Added consistent navigation bar to all pages.
+- Fixed broken links (second page + enquiry page).
+- Verified all pages open correctly.
 - [2025-09-23] Fixed navigation menu (all links working).
+- [2025-09-23] Styling & Responsiveness
+- Created `css/style.css` with base styles (fonts, layout, aespa-themed colours).
+- Added responsive design using media queries (desktop, tablet, mobile).
+- Styled products page with CSS Grid.
+- Changed site background to grey (#dcdcdc).
 - [2025-09-23] Added comments in HTML code for clarity.
 - [2025-09-23] Improved responsiveness with media queries.
-- [2025-09-23] Updated references (added in-text referencing).
+- [2025-09-24] Code Improvements
+- Added HTML comments to all files explaining structure.
+- Improved header: centered logo and placed nav links below.
+- Enhanced visual styles: hover effects, button styles, shadows.
+- [2025-09-25] Events Page Update
+- Added official **SYNK : aeXIS LINE 2025–2026 Tour** dates.
 
 CSS
 /* ==============================
@@ -19,8 +33,10 @@ body {
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  background-color: #fafafa;
+  background-color: #dcdcdc; /* grey background */
   color: #222;
+  margin: 0;
+  padding: 0;
 }
 
 /* Links */
@@ -41,28 +57,29 @@ img {
 header {
   background: #000;
   color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  text-align: center;   /* centers inline content */
+  padding: 20px;
 }
 
 header img {
-  max-height: 60px;
+  display: block;
+  margin: 0 auto;       /* centers the logo image */
+  max-height: 80px;     /* keep it neat */
+}
+
+nav {
+  margin-top: 15px;     /* spacing below the logo */
 }
 
 nav a {
-  margin-left: 20px;
   color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #9b5de5; /* aespa purple */
+  color: #9b5de5;       /* aespa purple */
 }
 
 /* ==============================
@@ -191,6 +208,5 @@ footer {
     font-size: 0.8rem;
   }
 }
-
 
 Bug or errors
