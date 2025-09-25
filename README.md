@@ -1,6 +1,20 @@
 # ST10438047_WEDE_Part2
 Overview
+Part 1 Submission
+- Added content for homepage and about page
+- Added initial navigation menu (some links broken)
+- Uploaded product images and text content
 
+Part 2 Fixes & Improvements
+- Fixed navigation menu: all links now work and are consistent across all pages
+- Added HTML comments in all pages for header, main, and footer sections
+- Made website responsive using CSS media queries (desktop, tablet, mobile)
+- Changed site background to grey
+- Centered header logo with navigation below
+- Updated products page layout with CSS grid for product cards
+- Added hover effects for buttons and nav links
+- Integrated upcoming aespa tour dates into `events.html`
+  
 References:
 aespa Album 
 aespa - 6th Mini Album [Rich Man] (BURST Ver.) [Online] Available at: https://quteandquirky.co.za/products/aespa-6th-mini-album-rich-man-burst-ver?srsltid=AfmBOoq0OCuuNJgGAbzIWjMrYMLq3WiO9FGryXlSMVHsQyn_o8IxXR1j [Accessed 27 August 2025]
