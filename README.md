@@ -1,6 +1,5 @@
 # ST10438047_WEDE_Part2
 Overview
-Screenshots: 
 
 References:
 aespa Album 
